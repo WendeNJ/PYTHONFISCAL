@@ -1,0 +1,47 @@
+# Segredos e variáveis de ambiente
+.env
+*.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+
+# Dados e documentos fiscais
+xmls_baixados/
+ctes_baixados/
+gtves_baixados/
+*.xml
+*.zip
+
+# Bancos de dados e backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+
+# Logs
+logs/
+*.log
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Configurações locais
+.claude/
+.idea/
+.vscode/
+*.iml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
